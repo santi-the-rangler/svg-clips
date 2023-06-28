@@ -19,10 +19,12 @@ const MediaModule = () => {
             d="M228.858 0V228.789H0L228.858 0Z"
             fill="#CF4326"
           />
-          <path
-            d="M184.963 13.459H18.8203V215.331H316.001L184.963 13.459Z"
-            fill="#F7856E"
-          />
+          <clipPath id="svgClip" clipPathUnits="objectBoundingBox">
+            <path
+              d="M184.963 13.459H18.8203V215.331H316.001L184.963 13.459Z"
+              fill="#F7856E"
+            />
+          </clipPath>
           <image href="people-working.png" height="229" width="316" />
         </svg>
       </div>
