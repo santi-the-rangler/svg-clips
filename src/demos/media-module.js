@@ -13,7 +13,6 @@ const MediaModule = () => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <image href="people-working.png" height="229" width="316" />
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -24,6 +23,7 @@ const MediaModule = () => {
             d="M184.963 13.459H18.8203V215.331H316.001L184.963 13.459Z"
             fill="#F7856E"
           />
+          <image href="people-working.png" height="229" width="316" />
         </svg>
       </div>
     </div>
