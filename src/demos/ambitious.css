@@ -12,6 +12,14 @@
   clip-path: url(#svgClip);
 }
 
+.multiPathContainer {
+  height: 40vh;
+}
+
+.multiPath {
+  clip-path: url(#multiPath);
+}
+
 video {
   width: 100%;
 }
