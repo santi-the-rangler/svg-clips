@@ -1,0 +1,30 @@
+:root {
+  --grey-grey-01: #313131;
+  --white: #ffffff;
+  --grey-grey-04: #d9d9d9;
+}
+
+.mediacard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 48px 142px;
+  gap: 10px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.mediacard.grey01 {
+  background-color: var(--grey-grey-01);
+  color: var(--white);
+}
+
+.mediacard.grey04 {
+  background-color: var(--grey-grey-04);
+  color: var(--grey-grey-01);
+}
+
+.mediacard.white {
+  background-color: var(--white);
+  color: var(--grey-grey-01);
+}

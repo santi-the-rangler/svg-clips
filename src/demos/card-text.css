@@ -1,0 +1,19 @@
+.card-title {
+  float: right;
+  width: 562px;
+  flex-direction: column;
+  /* @1440px+/Heading/H2 */
+  font-size: 32px;
+  font-family: Riforma LL;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  transform: translate(350px, -200px);
+}
+
+.card-description {
+  display: block;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  transform: translate(350px, -200px);
+}
