@@ -1,6 +1,7 @@
 .main-hero {
   clip-path: url(#myClipPath);
-  /* Add any other desired styles */
+  width: 100%;
+  height: 400px;
 }
 .container {
   display: flex;
@@ -14,4 +15,9 @@
 
 .isClipped {
   clip-path: url(#svgClip);
+}
+@media screen and (max-width: 768px) {
+  .main-hero {
+    height: 300px;
+  }
 }
