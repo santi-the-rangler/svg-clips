@@ -1,0 +1,17 @@
+.main-hero {
+  clip-path: url(#myClipPath);
+  /* Add any other desired styles */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+
+.isClipped {
+  clip-path: url(#svgClip);
+}
