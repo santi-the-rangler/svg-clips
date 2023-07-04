@@ -29,7 +29,10 @@ const MediaSvgOne = () => {
           clipPath="url(#imageClipPathOne)"
           width="316"
           height="229"
-          preserveAspectRatio="xMidYMid slice"
+          // using slice as the image width> height
+          // The default behavior is meet which stretches the content in both the x and y dimension until it fills either the width or height of the viewBox.
+          // The alternative - slice preserves the aspect ratio of the cont
+          preserveAspectRatio="xMaxYMid slice"
         />
       </svg>
       <CardText />

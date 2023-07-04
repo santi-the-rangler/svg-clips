@@ -27,6 +27,9 @@ const MediaSvgThree = () => {
           clipPath="url(#imageClipPathThree)"
           width="287"
           height="197"
+          // using slice as the image width> height
+          // The default behavior is meet which stretches the content in both the x and y dimension until it fills either the width or height of the viewBox.
+          // The alternative - slice preserves the aspect ratio of the content but scales up the graphic until it fills both the width and height of the viewbox (clipping the content that overflows the viewBox).
           preserveAspectRatio="xMaxYMid slice"
         />
       </svg>
