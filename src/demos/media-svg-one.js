@@ -29,7 +29,7 @@ const MediaSvgOne = () => {
           clipPath="url(#imageClipPathOne)"
           width="316"
           height="229"
-          preserveAspectRatio="xMidYMid meet"
+          preserveAspectRatio="xMidYMid slice"
         />
       </svg>
       <CardText />
