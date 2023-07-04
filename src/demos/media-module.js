@@ -2,6 +2,7 @@ import React from 'react'
 import './media-module.css'
 import MediaCard from './media-card'
 import MediaSvgOne from './media-svg-one'
+import MediaSvgTwo from './media-svg-two'
 const MediaModule = () => {
   return (
     <div>
@@ -14,6 +15,15 @@ const MediaModule = () => {
       </MediaCard>
       <MediaCard className="grey04">
         <MediaSvgOne />
+      </MediaCard>
+      <MediaCard className="white">
+        <MediaSvgTwo />
+      </MediaCard>
+      <MediaCard className="grey01">
+        <MediaSvgTwo />
+      </MediaCard>
+      <MediaCard className="grey04">
+        <MediaSvgTwo />
       </MediaCard>
     </div>
   )
