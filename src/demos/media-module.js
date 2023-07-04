@@ -4,36 +4,37 @@ import MediaCard from './media-card'
 import MediaSvgOne from './media-svg-one'
 import MediaSvgTwo from './media-svg-two'
 import MediaSvgThree from './media-svg-three'
+import ReadMoreButton from './read-more-button'
 const MediaModule = () => {
   return (
     <div>
       <h2>Media Module 2.0</h2>
       <MediaCard className="white">
-        <MediaSvgOne />
+        <MediaSvgOne className="button-red" />
       </MediaCard>
       <MediaCard className="grey01">
-        <MediaSvgOne />
+        <MediaSvgOne className="button-grey01" />
       </MediaCard>
       <MediaCard className="grey04">
-        <MediaSvgOne />
+        <MediaSvgOne className="button-red" />
       </MediaCard>
       <MediaCard className="white">
-        <MediaSvgTwo />
+        <MediaSvgTwo className="button-red" />
       </MediaCard>
       <MediaCard className="grey01">
-        <MediaSvgTwo />
+        <MediaSvgTwo className="button-grey01" />
       </MediaCard>
       <MediaCard className="grey04">
-        <MediaSvgTwo />
+        <MediaSvgTwo className="button-red" />
       </MediaCard>
       <MediaCard className="white">
-        <MediaSvgThree />
+        <MediaSvgThree className="button-red" />
       </MediaCard>
       <MediaCard className="grey01">
-        <MediaSvgThree />
+        <MediaSvgThree className="button-grey01" />
       </MediaCard>
       <MediaCard className="grey04">
-        <MediaSvgThree />
+        <MediaSvgThree className="button-red" />
       </MediaCard>
     </div>
   )

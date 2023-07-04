@@ -1,7 +1,7 @@
 import './media-svg.css'
 import CardText from './card-text'
 
-const MediaSvgThree = () => {
+const MediaSvgThree = (props) => {
   return (
     <div className="card-image">
       <svg
@@ -38,7 +38,7 @@ const MediaSvgThree = () => {
           preserveAspectRatio="xMaxYMid slice"
         />
       </svg>
-      <CardText />
+      <CardText className={props.className} />
     </div>
   )
 }

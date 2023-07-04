@@ -2,6 +2,7 @@
   --grey-grey-01: #313131;
   --white: #ffffff;
   --grey-grey-04: #d9d9d9;
+  --red: #cf4326;
 }
 
 .mediacard {
@@ -27,15 +28,101 @@
   color: var(--grey-grey-01);
 }
 
+.mediacard.button-red {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--red);
+  height: 50px;
+  width: 250px;
+  color: #ffffff;
+  box-shadow: none;
+  border: 1px solid var(--red);
+}
+
+.mediacard.button-grey01 {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--grey-grey-01);
+  color: #ffffff;
+  box-shadow: none;
+  height: 50px;
+  width: 250px;
+  border: 1px solid var(--white);
+}
+
 @media screen and (max-width: 1280px) {
   .mediacard {
     padding: 32px;
+  }
+  .mediacard.button-red {
+    display: flex;
+    padding: 12px 24px;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--red);
+    height: 40px;
+    width: 100px;
+    color: #ffffff;
+    box-shadow: none;
+    border: 1px solid var(--red);
+  }
+
+  .mediacard.button-grey01 {
+    display: flex;
+    font-size: 8px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--grey-grey-01);
+    color: #ffffff;
+    box-shadow: none;
+    height: 40px;
+    width: 100px;
+    border: 1px solid var(--white);
   }
 }
 @media screen and (max-width: 414px) {
   .mediacard {
     flex-direction: column-reverse;
     padding: 24px;
+  }
+  .mediacard.button-red {
+    display: flex;
+    padding: 12px 24px;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--red);
+    height: 40px;
+    width: 100px;
+    color: #ffffff;
+    box-shadow: none;
+    border: 1px solid var(--red);
+  }
+
+  .mediacard.button-grey01 {
+    display: flex;
+    font-size: 8px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--grey-grey-01);
+    color: #ffffff;
+    box-shadow: none;
+    height: 40px;
+    width: 100px;
+    border: 1px solid var(--white);
   }
 }
 
@@ -49,5 +136,34 @@
   }
   .card-context {
     font-size: 2px;
+  }
+  .mediacard.button-red {
+    display: flex;
+    padding: 12px 24px;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--red);
+    height: 40px;
+    width: 100px;
+    color: #ffffff;
+    box-shadow: none;
+    border: 1px solid var(--red);
+  }
+
+  .mediacard.button-grey01 {
+    display: flex;
+    font-size: 8px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--grey-grey-01);
+    color: #ffffff;
+    box-shadow: none;
+    height: 40px;
+    width: 100px;
+    border: 1px solid var(--white);
   }
 }

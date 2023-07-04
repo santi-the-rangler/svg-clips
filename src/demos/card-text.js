@@ -1,5 +1,6 @@
 import './card-text.css'
-const CardText = () => {
+import ReadMoreButton from './read-more-button'
+const CardText = (props) => {
   return (
     <div className="card-context">
       <h2 className="card-title">Digital Experience Platforms </h2>
@@ -8,6 +9,7 @@ const CardText = () => {
         tools and libraries that guide and help you to build your design system
         faster.
       </p>
+      <ReadMoreButton className={props.className} />
     </div>
   )
 }
