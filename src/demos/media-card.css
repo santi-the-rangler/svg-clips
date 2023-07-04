@@ -34,6 +34,7 @@
 }
 @media screen and (max-width: 414px) {
   .mediacard {
+    flex-direction: column-reverse;
     padding: 24px;
   }
 }
