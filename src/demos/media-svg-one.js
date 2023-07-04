@@ -3,7 +3,7 @@ import CardText from './card-text'
 
 const MediaSvgOne = () => {
   return (
-    <>
+    <div className="card-image">
       <svg
         width="316"
         height="229"
@@ -33,7 +33,7 @@ const MediaSvgOne = () => {
         />
       </svg>
       <CardText />
-    </>
+    </div>
   )
 }
 

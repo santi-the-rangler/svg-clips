@@ -11,8 +11,14 @@
 .isClipped {
   clip-path: url(#svgClip);
 }
-@media screen and (max-width: 768px) {
-  .main-hero {
-    height: 300px;
-  }
+
+.card-image {
+  display: flex;
+  align-items: center;
+  overflow-wrap: break-word;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  resize: both;
 }
