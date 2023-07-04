@@ -4,7 +4,7 @@ import MediaCard from './media-card'
 import MediaSvgOne from './media-svg-one'
 const MediaModule = () => {
   return (
-    <div className="main-hero">
+    <div>
       <h2>Media Module 2.0</h2>
       <MediaCard className="white">
         <MediaSvgOne />

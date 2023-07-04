@@ -3,9 +3,3 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.main-hero {
-  clip-path: url(#myClipPath);
-  width: 100%;
-  height: 400px;
-}

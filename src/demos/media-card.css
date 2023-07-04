@@ -6,12 +6,10 @@
 
 .mediacard {
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   padding: 48px 142px;
   gap: 10px;
   width: 100%;
-  overflow: scroll;
 }
 
 .mediacard.grey01 {
