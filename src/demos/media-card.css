@@ -35,8 +35,8 @@
   align-items: center;
   gap: 10px;
   background-color: var(--red);
-  height: 50px;
-  width: 250px;
+  width: 50%;
+  height: 2%;
   color: #ffffff;
   box-shadow: none;
   border: 1px solid var(--red);
@@ -51,119 +51,12 @@
   background-color: var(--grey-grey-01);
   color: #ffffff;
   box-shadow: none;
-  height: 50px;
-  width: 250px;
+  width: 50%;
+  height: 2%;
   border: 1px solid var(--white);
 }
 
-@media screen and (max-width: 1280px) {
-  .mediacard {
-    padding: 32px;
-  }
-  .mediacard.button-red {
-    display: flex;
-    padding: 12px 24px;
-    font-size: 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: var(--red);
-    height: 40px;
-    width: 100px;
-    color: #ffffff;
-    box-shadow: none;
-    border: 1px solid var(--red);
-  }
-
-  .mediacard.button-grey01 {
-    display: flex;
-    font-size: 8px;
-    padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: var(--grey-grey-01);
-    color: #ffffff;
-    box-shadow: none;
-    height: 40px;
-    width: 100px;
-    border: 1px solid var(--white);
-  }
-}
-@media screen and (max-width: 414px) {
-  .mediacard {
-    flex-direction: column-reverse;
-    padding: 24px;
-  }
-  .mediacard.button-red {
-    display: flex;
-    padding: 12px 24px;
-    font-size: 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: var(--red);
-    height: 40px;
-    width: 100px;
-    color: #ffffff;
-    box-shadow: none;
-    border: 1px solid var(--red);
-  }
-
-  .mediacard.button-grey01 {
-    display: flex;
-    font-size: 8px;
-    padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: var(--grey-grey-01);
-    color: #ffffff;
-    box-shadow: none;
-    height: 40px;
-    width: 100px;
-    border: 1px solid var(--white);
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .mediacard {
-    display: flex;
-    overflow: scroll;
-    justify-content: flex-start;
-    gap: 5px;
-    width: 100%;
-  }
-  .card-context {
-    font-size: 2px;
-  }
-  .mediacard.button-red {
-    display: flex;
-    padding: 12px 24px;
-    font-size: 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: var(--red);
-    height: 40px;
-    width: 100px;
-    color: #ffffff;
-    box-shadow: none;
-    border: 1px solid var(--red);
-  }
-
-  .mediacard.button-grey01 {
-    display: flex;
-    font-size: 8px;
-    padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: var(--grey-grey-01);
-    color: #ffffff;
-    box-shadow: none;
-    height: 40px;
-    width: 100px;
-    border: 1px solid var(--white);
-  }
+svg {
+  width: 100%;
+  height: fit-content;
 }

@@ -5,8 +5,8 @@ const MediaSvgTwo = (props) => {
   return (
     <div className="card-image">
       <svg
-        width="313"
-        height="238"
+        width="0"
+        height="0"
         viewBox="0 0 313 238"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,5 @@
-@media screen and (max-width: 400px) {
-  .card-context {
-    font-size: 8px;
-  }
+.card-context {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
 }
