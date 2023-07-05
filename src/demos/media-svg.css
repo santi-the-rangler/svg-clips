@@ -6,8 +6,16 @@
   height: 100vh;
 }
 
-.isClipped {
-  clip-path: url(#svgClip);
+.isClippedOne {
+  clip-path: url(#imageClipPathOne);
+}
+
+.isClippedTwo {
+  clip-path: url(#imageClipPathTwo);
+}
+
+.isClippedThree {
+  clip-path: url(#imageClipPathThree);
 }
 
 .card-image {
