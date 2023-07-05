@@ -1,23 +1,86 @@
 .main-hero {
   clip-path: url(#myClipPath);
-  width: 100%;
-  height: 400px;
-}
-.container {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
-  background-color: black;
-  height: 100vh;
+  flex-wrap: wrap;
+  background: white;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
 }
 
+.main-hero-content {
+  /*   position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: black; */
+  width: 100%;
+}
+
+.text-container {
+  position: absolute;
+  top: 25%;
+  max-width: 40vw;
+  padding: 0 20px 0 0;
+  /* flex: 1;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  max-width: 600px;
+  margin-right: 20px; */
+}
+.text-container h2 {
+  margin-bottom: 0;
+}
+.text-container p {
+  margin-top: 20px;
+}
 .isClipped {
   clip-path: url(#svgClip);
 }
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  order: 1;
+  margin-bottom: 20px;
+}
+.image-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .text-container {
+    top: 20%;
+    max-width: 35vw;
+    padding: 0 20px 0 0;
+  }
+  .image-container svg {
+    padding-left: 20%;
+  }
+}
 @media screen and (max-width: 768px) {
-  .main-hero {
-    height: 300px;
+  .text-container {
+    top: 15%;
+    max-width: 35vw;
+    padding: 0 20px 0 0;
+  }
+  .image-container svg {
+    padding-left: 20%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .text-container {
+    top: 15%;
+    max-width: 60vw;
+    padding: 0 20px 0 0;
+  }
+  .image-container svg {
+    padding-top: 40%;
+    padding-left: 20%;
   }
 }
