@@ -4,7 +4,6 @@ import MediaCard from './media-card'
 import MediaSvgOne from './media-svg-one'
 import MediaSvgTwo from './media-svg-two'
 import MediaSvgThree from './media-svg-three'
-import ReadMoreButton from './read-more-button'
 const MediaModule = () => {
   return (
     <div>
