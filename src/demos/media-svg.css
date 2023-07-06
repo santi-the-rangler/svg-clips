@@ -8,14 +8,20 @@
 
 .isClippedOne {
   clip-path: url(#imageClipPathOne);
+  width: 316px;
+  height: 229px;
 }
 
 .isClippedTwo {
   clip-path: url(#imageClipPathTwo);
+  width: 313px;
+  height: 238px;
 }
 
 .isClippedThree {
   clip-path: url(#imageClipPathThree);
+  width: 287px;
+  height: 197px;
 }
 
 .card-image {
@@ -31,6 +37,11 @@
   .card-image {
     width: 100vw;
     flex-direction: column-reverse;
+    height: 50%;
+  }
+  .card-context {
+    height: 50%;
+    width: 100%;
   }
 }
 

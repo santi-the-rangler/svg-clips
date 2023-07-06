@@ -35,8 +35,6 @@ const MediaSvgTwo = (props) => {
           // 600x600
           // href="https://plus.unsplash.com/premium_photo-1681400699241-834781696dc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
           // clipPath="url(#imageClipPathTwo)"
-          width="313"
-          height="238"
           // using slice as the image width> height
           // The default behavior is meet which stretches the content in both the x and y dimension until it fills either the width or height of the viewBox.
           // The alternative - slice preserves the aspect ratio of the cont
