@@ -1,16 +1,10 @@
-import './media-svg.css'
+import styles from './media-module.module.css'
 import CardText from './card-text'
 
 const MediaSvgThree = (props) => {
   return (
-    <div className="card-image">
-      <svg
-        width="0"
-        height="0"
-        viewBox="0 0 287 197"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+    <div className={styles['card-image']}>
+      <svg viewBox="0 0 287 197" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"
@@ -23,7 +17,7 @@ const MediaSvgThree = (props) => {
         </clipPath>
 
         <image
-          className="isClippedThree"
+          className={styles.isClippedThree}
           // 1920x1280
           // href="https://i.ibb.co/5cFWfj4/Image-Hero.png"
           // 450x600

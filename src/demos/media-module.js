@@ -1,9 +1,10 @@
 import React from 'react'
-import './media-module.css'
+import './media-module.module.css'
 import MediaCard from './media-card'
 import MediaSvgOne from './media-svg-one'
 import MediaSvgTwo from './media-svg-two'
 import MediaSvgThree from './media-svg-three'
+
 const MediaModule = () => {
   return (
     <div>

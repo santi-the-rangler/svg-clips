@@ -1,3 +1,15 @@
+body {
+  background-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+}
+
+.card-context {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -14,8 +26,8 @@
 
 .isClippedTwo {
   clip-path: url(#imageClipPathTwo);
-  width: 313px;
-  height: 238px;
+  /* width: 313px;
+  height: 238px; */
 }
 
 .isClippedThree {
