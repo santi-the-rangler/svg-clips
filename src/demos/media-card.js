@@ -1,8 +1,11 @@
-import './media-card.css'
+import styles from './media-module.module.css'
 
 const MediaCard = (props) => {
-  const classes = 'mediacard ' + props.className
-  return <div className={classes}>{props.children}</div>
+  return (
+    <div className={`${styles.mediacard} ${styles[props.className]}`}>
+      {props.children}
+    </div>
+  )
 }
 
 export default MediaCard

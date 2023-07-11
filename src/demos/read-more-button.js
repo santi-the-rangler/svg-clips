@@ -1,14 +1,8 @@
 import React from 'react'
-import './media-card.css'
+import styles from './media-module.module.css'
 
 const ReadMoreButton = (props) => {
-  const classes = 'mediacard ' + props.className
-
-  return (
-    <>
-      <button className={classes}>Read More</button>
-    </>
-  )
+  return <button className={`${styles[props.className]}`}>Read More</button>
 }
 
 export default ReadMoreButton

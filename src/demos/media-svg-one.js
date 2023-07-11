@@ -4,7 +4,12 @@ import CardText from './card-text'
 const MediaSvgOne = (props) => {
   return (
     <div className={styles['card-image']}>
-      <svg viewBox="0 0 316 229" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg
+        className={styles.svg}
+        viewBox="0 0 316 229"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"

@@ -10,31 +10,31 @@ const MediaModule = () => {
     <div>
       <h2>Media Module 2.0</h2>
       <MediaCard className="white">
-        <MediaSvgOne className="button-red" />
+        <MediaSvgOne className="red" />
       </MediaCard>
       <MediaCard className="grey01">
-        <MediaSvgOne className="button-grey01" />
+        <MediaSvgOne className="grey01" />
       </MediaCard>
       <MediaCard className="grey04">
-        <MediaSvgOne className="button-red" />
+        <MediaSvgOne className="red" />
       </MediaCard>
       <MediaCard className="white">
-        <MediaSvgTwo className="button-red" />
+        <MediaSvgTwo className="red" />
       </MediaCard>
       <MediaCard className="grey01">
-        <MediaSvgTwo className="button-grey01" />
+        <MediaSvgTwo className="grey01" />
       </MediaCard>
       <MediaCard className="grey04">
-        <MediaSvgTwo className="button-red" />
+        <MediaSvgTwo className="red" />
       </MediaCard>
       <MediaCard className="white">
-        <MediaSvgThree className="button-red" />
+        <MediaSvgThree className="red" />
       </MediaCard>
       <MediaCard className="grey01">
-        <MediaSvgThree className="button-grey01" />
+        <MediaSvgThree className="grey01" />
       </MediaCard>
       <MediaCard className="grey04">
-        <MediaSvgThree className="button-red" />
+        <MediaSvgThree className="red" />
       </MediaCard>
     </div>
   )
